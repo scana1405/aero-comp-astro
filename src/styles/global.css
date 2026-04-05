@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  /* Custom Colors */
+  --color-surface-container-high: #dde9ff;
+  --color-on-primary: #ffffff;
+  --color-surface-container-highest: #d5e3fd;
+  --color-surface-container-lowest: #ffffff;
+  --color-error-container: #ffdad6;
+  --color-primary: #00346f;
+  --color-background: #f8f9ff;
+  --color-on-primary-fixed: #001b3f;
+  --color-surface-variant: #d5e3fd;
+  --color-surface-dim: #ccdbf4;
+  --color-inverse-on-surface: #ebf1ff;
+  --color-on-tertiary: #ffffff;
+  --color-secondary-fixed-dim: #b7c8e1;
+  --color-inverse-primary: #abc7ff;
+  --color-secondary: #505f76;
+  --color-primary-container: #004a99;
+  --color-error: #ba1a1a;
+  --color-surface-container: #e6eeff;
+  --color-on-error: #ffffff;
+  --color-on-surface: #0d1c2f;
+  --color-on-tertiary-container: #ffa87a;
+  --color-on-surface-variant: #424751;
+  --color-on-error-container: #93000a;
+  --color-tertiary-fixed: #ffdbca;
+  --color-surface: #f8f9ff;
+  --color-on-primary-container: #9bbdff;
+  --color-on-primary-fixed-variant: #00458f;
+  --color-outline-variant: #c2c6d3;
+  --color-inverse-surface: #233144;
+  --color-tertiary: #5d2500;
+  --color-on-tertiary-fixed-variant: #783200;
+  --color-surface-tint: #255dad;
+  --color-on-tertiary-fixed: #341100;
+  --color-on-background: #0d1c2f;
+  --color-tertiary-container: #803600;
+  --color-primary-fixed: #d7e2ff;
+  --color-secondary-fixed: #d3e4fe;
+  --color-on-secondary: #ffffff;
+  --color-surface-bright: #f8f9ff;
+  --color-surface-container-low: #eff4ff;
+  --color-primary-fixed-dim: #abc7ff;
+  --color-on-secondary-fixed-variant: #38485d;
+  --color-secondary-container: #d0e1fb;
+  --color-on-secondary-container: #54647a;
+  --color-on-secondary-fixed: #0b1c30;
+  --color-outline: #737783;
+  --color-tertiary-fixed-dim: #ffb690;
+
+  /* Border Radius */
+  --radius-DEFAULT: 0.125rem;
+  --radius-lg: 0.25rem;
+  --radius-xl: 0.5rem;
+  --radius-full: 0.75rem;
+
+  /* Font Families */
+  --font-family-headline: "Inter", sans-serif;
+  --font-family-body: "Inter", sans-serif;
+  --font-family-label: "Inter", sans-serif;
+}
