@@ -1,0 +1,213 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout title="Maintenance & Service | AeroPress Industrial">
+  <Navbar activeNav="maintenance" />
+
+  <main class="pt-24">
+    <!-- Hero Section -->
+    <section class="relative h-[614px] flex items-center overflow-hidden bg-surface-container">
+      <div class="absolute inset-0 z-0">
+        <img
+          class="w-full h-full object-cover opacity-20 mix-blend-multiply"
+          src="https://lh3.googleusercontent.com/aida-public/AB6AXuB1sV1csEMZkI_EUNnWxxm-brTQt9MiqxwbWzbx2LGEBauxBiVpzF9ofAgf7qfZsZS4GieN8VE9Kn8wrTNtQMWv0ab2Nj88meVHyRoAc-V236YKqXwMxkD5cEa04I6XEyK1Zi7NfWI3kTNW3Hx1C2UCwQ2sMCL3Yr_5l4IiCzpEJ2lMRCInQ9gu97hXFLbfRNyEJaq4s38Nm70YZtxXYXDJozT78L43ZI4vyIMrQwhR9tmexNjxud6cDg-e9E_01uHl-ZA343pjAkC1"
+          alt="Close-up of industrial machinery gear system with cinematic lighting and deep blue and metallic silver tones"
+        />
+      </div>
+      <div class="max-w-screen-2xl mx-auto px-6 relative z-10 w-full grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <span class="label-md uppercase tracking-widest text-primary font-bold mb-4 block">Engineered Longevity</span>
+          <h1 class="text-6xl md:text-8xl font-black tracking-tighter text-primary leading-none mb-8">
+            LIFETIME<br />RELIABILITY.
+          </h1>
+          <p class="text-on-surface-variant text-lg max-w-md border-l-4 border-primary pl-6">
+            Our engineering support ensures your compressors operate at peak efficiency with zero unscheduled downtime. Precision maintenance for precision machines.
+          </p>
+        </div>
+        <div class="hidden md:block">
+          <div class="bg-surface-container-highest p-8 rounded-xl shadow-2xl relative overflow-hidden">
+            <div class="absolute top-0 right-0 p-4 opacity-10">
+              <span class="material-symbols-outlined text-9xl">engineering</span>
+            </div>
+            <h3 class="text-2xl font-black text-primary mb-2">24/7 Rapid Response</h3>
+            <p class="text-on-surface-variant mb-6">Global technical assistance available around the clock.</p>
+            <div class="flex items-center gap-4 text-primary font-black text-3xl">
+              <span class="material-symbols-outlined">call</span>
+              +1-800-AERO-PRO
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Service Plans - Bento Grid Style -->
+    <section class="py-24 bg-surface">
+      <div class="max-w-screen-2xl mx-auto px-6">
+        <div class="mb-16">
+          <h2 class="text-4xl font-black tracking-tighter text-primary uppercase">Service Architectures</h2>
+          <div class="h-1 w-24 bg-tertiary mt-2"></div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+          <!-- Bronze Plan -->
+          <div class="md:col-span-4 bg-surface-container-low p-8 flex flex-col justify-between group hover:bg-surface-container-highest transition-colors">
+            <div>
+              <div class="text-outline text-5xl font-black mb-4 opacity-20">01</div>
+              <h3 class="text-3xl font-black text-primary mb-4">BRONZE</h3>
+              <p class="text-on-surface-variant mb-8">Baseline protection ensuring core compliance and standard diagnostics.</p>
+              <ul class="space-y-3 mb-8">
+                <li class="flex items-center gap-2 text-sm font-medium"><span class="material-symbols-outlined text-primary text-sm">check_circle</span>Annual Inspections</li>
+                <li class="flex items-center gap-2 text-sm font-medium"><span class="material-symbols-outlined text-primary text-sm">check_circle</span>Core Parts Discount</li>
+                <li class="flex items-center gap-2 text-sm font-medium"><span class="material-symbols-outlined text-primary text-sm">check_circle</span>Standard Tech Support</li>
+              </ul>
+            </div>
+            <button class="w-full border-b-2 border-primary py-4 text-left font-black uppercase tracking-widest text-xs flex justify-between items-center">
+              Deploy Plan <span class="material-symbols-outlined">arrow_forward</span>
+            </button>
+          </div>
+          <!-- Silver Plan (Featured) -->
+          <div class="md:col-span-4 steel-gradient p-10 text-on-primary flex flex-col justify-between relative overflow-hidden">
+            <div class="absolute top-0 right-0 p-4 bg-tertiary-fixed text-on-tertiary-fixed text-[10px] font-black uppercase tracking-tighter px-3 py-1">Recommended</div>
+            <div>
+              <div class="text-on-primary-container text-5xl font-black mb-4 opacity-40">02</div>
+              <h3 class="text-3xl font-black mb-4">SILVER</h3>
+              <p class="opacity-80 mb-8">Comprehensive proactive maintenance for high-cycle industrial environments.</p>
+              <ul class="space-y-3 mb-8">
+                <li class="flex items-center gap-2 text-sm font-medium"><span class="material-symbols-outlined text-tertiary-fixed text-sm">check_circle</span>Bi-Annual Servicing</li>
+                <li class="flex items-center gap-2 text-sm font-medium"><span class="material-symbols-outlined text-tertiary-fixed text-sm">check_circle</span>Priority On-Site Response</li>
+                <li class="flex items-center gap-2 text-sm font-medium"><span class="material-symbols-outlined text-tertiary-fixed text-sm">check_circle</span>Predictive Analytics Link</li>
+                <li class="flex items-center gap-2 text-sm font-medium"><span class="material-symbols-outlined text-tertiary-fixed text-sm">check_circle</span>Extended Warranty</li>
+              </ul>
+            </div>
+            <button class="w-full bg-surface-container-lowest text-primary py-4 text-center font-black uppercase tracking-widest text-xs hover:bg-tertiary-fixed transition-colors">
+              Upgrade to Silver
+            </button>
+          </div>
+          <!-- Gold Plan -->
+          <div class="md:col-span-4 bg-surface-container-low p-8 flex flex-col justify-between group hover:bg-surface-container-highest transition-colors">
+            <div>
+              <div class="text-outline text-5xl font-black mb-4 opacity-20">03</div>
+              <h3 class="text-3xl font-black text-primary mb-4">GOLD</h3>
+              <p class="text-on-surface-variant mb-8">The Monolith protection. Total system oversight with zero-risk guarantee.</p>
+              <ul class="space-y-3 mb-8">
+                <li class="flex items-center gap-2 text-sm font-medium"><span class="material-symbols-outlined text-primary text-sm">check_circle</span>Real-time Remote Monitoring</li>
+                <li class="flex items-center gap-2 text-sm font-medium"><span class="material-symbols-outlined text-primary text-sm">check_circle</span>4-Hour Response Guarantee</li>
+                <li class="flex items-center gap-2 text-sm font-medium"><span class="material-symbols-outlined text-primary text-sm">check_circle</span>All-Inclusive Replacement</li>
+                <li class="flex items-center gap-2 text-sm font-medium"><span class="material-symbols-outlined text-primary text-sm">check_circle</span>On-Site Resident Engineer</li>
+              </ul>
+            </div>
+            <button class="w-full border-b-2 border-primary py-4 text-left font-black uppercase tracking-widest text-xs flex justify-between items-center">
+              Deploy Plan <span class="material-symbols-outlined">arrow_forward</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Global Network Section -->
+    <section class="py-24 bg-surface-container-low relative">
+      <div class="max-w-screen-2xl mx-auto px-6 grid md:grid-cols-12 gap-12 items-center">
+        <div class="md:col-span-4">
+          <h2 class="text-4xl font-black tracking-tighter text-primary uppercase mb-6">Global Deployment</h2>
+          <p class="text-on-surface-variant mb-8">Our service hubs are strategically located to minimize transit time for components and personnel. Wherever your facility is, AeroPress is within reach.</p>
+          <div class="space-y-4">
+            <div class="bg-surface-container-lowest p-4 flex justify-between items-center border-l-4 border-tertiary">
+              <span class="font-bold text-sm uppercase">North America Hub</span>
+              <span class="text-xs font-black text-tertiary">OPERATIONAL</span>
+            </div>
+            <div class="bg-surface-container-lowest p-4 flex justify-between items-center border-l-4 border-primary">
+              <span class="font-bold text-sm uppercase">Euro-Technik Center</span>
+              <span class="text-xs font-black text-primary">OPERATIONAL</span>
+            </div>
+            <div class="bg-surface-container-lowest p-4 flex justify-between items-center border-l-4 border-primary">
+              <span class="font-bold text-sm uppercase">Asia-Pacific Logistics</span>
+              <span class="text-xs font-black text-primary">OPERATIONAL</span>
+            </div>
+          </div>
+        </div>
+        <div class="md:col-span-8 bg-surface-container-highest h-[500px] relative overflow-hidden rounded-xl">
+          <img
+            class="w-full h-full object-cover grayscale opacity-50"
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCDtu7xPHz0Y-E9_XlniTGBKXojknFIKZw8XVn2rn1PYkURhu0SC6K0SL9vF5vQ6Fb6fFdIAfQDu_5IpoJxjz4PWE6frUr4qWo80IC0ryiNAa4sYfYKpT79zbJgnl-JWPLU1UqprCQ6ls0BCAEDaMbj30ZUqqPtkAGzPAI40HyGREGD11I4jQ_ZMx_c_EthUFTpBlEIhB4M-AowZHgO-fxNwYQB0A7Ds7NeAEHVMlFkWCjhEnmiU8ek8dO4ncY3kJOZbSuB3nRc6-NX"
+            alt="Monochrome world map with glowing blue data points indicating global service center locations"
+          />
+          <div class="absolute inset-0 flex items-center justify-center">
+            <div class="w-4 h-4 bg-tertiary rounded-full animate-ping absolute top-1/3 left-1/4"></div>
+            <div class="w-4 h-4 bg-tertiary rounded-full animate-ping absolute top-1/2 left-1/2"></div>
+            <div class="w-4 h-4 bg-tertiary rounded-full animate-ping absolute bottom-1/4 right-1/3"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ & Troubleshooting -->
+    <section class="py-24 bg-surface">
+      <div class="max-w-screen-2xl mx-auto px-6">
+        <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+          <div>
+            <h2 class="text-4xl font-black tracking-tighter text-primary uppercase">Field Troubleshooting</h2>
+            <div class="h-1 w-24 bg-tertiary mt-2"></div>
+          </div>
+          <div class="text-right">
+            <p class="text-on-surface-variant font-bold text-sm uppercase tracking-widest">Knowledge Base v4.1</p>
+          </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div class="group border-b-2 border-surface-container-high pb-8 cursor-pointer hover:border-primary transition-colors">
+            <div class="flex justify-between items-start">
+              <h4 class="text-xl font-bold text-primary mb-3">01. Pressure Fluctuations at Startup</h4>
+              <span class="material-symbols-outlined text-primary">add</span>
+            </div>
+            <p class="text-on-surface-variant leading-relaxed">Ensure the primary valve assembly is cleared of particulate. Check the inlet manifold for alignment deviations exceeding 0.05mm.</p>
+          </div>
+          <div class="group border-b-2 border-surface-container-high pb-8 cursor-pointer hover:border-primary transition-colors">
+            <div class="flex justify-between items-start">
+              <h4 class="text-xl font-bold text-primary mb-3">02. Thermal Management Alarms</h4>
+              <span class="material-symbols-outlined text-primary">add</span>
+            </div>
+            <p class="text-on-surface-variant leading-relaxed">Verification of coolant flow rate is required. If thermal threshold 140°C is breached, the emergency shunt will engage automatically.</p>
+          </div>
+          <div class="group border-b-2 border-surface-container-high pb-8 cursor-pointer hover:border-primary transition-colors">
+            <div class="flex justify-between items-start">
+              <h4 class="text-xl font-bold text-primary mb-3">03. Predictive Wear Indicators</h4>
+              <span class="material-symbols-outlined text-primary">add</span>
+            </div>
+            <p class="text-on-surface-variant leading-relaxed">Sensors monitoring the main drive shaft will trigger a 'Yellow' status at 85% expected lifespan. Schedule component replacement within 400 operating hours.</p>
+          </div>
+          <div class="group border-b-2 border-surface-container-high pb-8 cursor-pointer hover:border-primary transition-colors">
+            <div class="flex justify-between items-start">
+              <h4 class="text-xl font-bold text-primary mb-3">04. Lubrication Viscosity Specs</h4>
+              <span class="material-symbols-outlined text-primary">add</span>
+            </div>
+            <p class="text-on-surface-variant leading-relaxed">Only use Aero-Grade Ultra-Synth 40. Mixing with standard industrial lubricants will void the kinetic warranty and cause impeller fatigue.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA / Hotline -->
+    <section class="py-24 bg-primary overflow-hidden relative">
+      <div class="absolute top-0 right-0 w-1/3 h-full bg-tertiary-fixed opacity-5 -skew-x-12 translate-x-12"></div>
+      <div class="max-w-screen-2xl mx-auto px-6 text-center relative z-10">
+        <h2 class="text-5xl md:text-7xl font-black tracking-tighter text-on-primary mb-8 leading-none">IMMEDIATE ASSISTANCE<br />REQUIRED?</h2>
+        <div class="flex flex-col md:flex-row gap-6 justify-center items-center">
+          <a
+            class="bg-tertiary-fixed text-on-tertiary-fixed px-10 py-5 rounded font-black uppercase text-xl flex items-center gap-4 hover:scale-105 transition-transform"
+            href="tel:18002376776"
+          >
+            <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">phone_in_talk</span>
+            1-800-AERO-PRO
+          </a>
+          <button class="bg-primary-container text-on-primary px-10 py-5 rounded font-black uppercase text-xl border-2 border-on-primary-container hover:bg-transparent transition-colors">
+            Open Service Ticket
+          </button>
+        </div>
+        <p class="text-on-primary-container mt-12 font-bold uppercase tracking-widest text-sm">Average Connection Time: 42 Seconds</p>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>

@@ -1,0 +1,194 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout title="AeroPress Industrial | Engineering The Void">
+  <Navbar activeNav="solutions" />
+
+  <main class="pt-20">
+    <!-- Hero Section: The Kinetic Monolith -->
+    <section class="relative min-h-[921px] flex items-center overflow-hidden bg-surface">
+      <div class="max-w-screen-2xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        <div class="lg:col-span-6 z-10">
+          <span class="inline-block px-3 py-1 bg-surface-container-highest text-primary text-xs font-black uppercase tracking-widest mb-6 rounded">Series-X Precision</span>
+          <h1 class="text-5xl md:text-7xl font-black text-primary tracking-tighter leading-[0.9] mb-8">
+            ENGINEERING<br />THE VOID.
+          </h1>
+          <p class="text-lg text-on-surface-variant max-w-lg mb-10 leading-relaxed">
+            High-output industrial compression systems built for 99.9% uptime. Precision-milled components encased in a kinetic monolith design.
+          </p>
+          <div class="flex flex-wrap gap-4">
+            <button class="steel-gradient text-on-primary px-8 py-4 rounded-lg font-bold text-base uppercase tracking-widest flex items-center gap-3">
+              Browse Models
+              <span class="material-symbols-outlined text-lg">arrow_forward</span>
+            </button>
+            <button class="bg-surface-container-highest text-primary px-8 py-4 rounded-lg font-bold text-base uppercase tracking-widest hover:bg-surface-container-high transition-colors">
+              Technical Specs
+            </button>
+          </div>
+        </div>
+        <div class="lg:col-span-6 relative">
+          <div class="relative z-10 bg-surface-container-low p-4 rounded-xl kinetic-shadow transform lg:translate-x-12">
+            <img
+              class="w-full h-[500px] object-cover rounded-lg shadow-2xl"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDo5LT6VSnv27mQ18M7sTFguvLdiKg_qbpy4PDv9DnDTZUghf-fXhtHP17AEjlYGIBqtd43KpePjhXbwsPIz5x7a77XZJK_jIIaeoOkAjoQA6XQ7cGX9ehOmKKET04iTy4aHLXlKNN3XtUXn4BOIzJt3htP1_nHD3ETYAR5VNxEkq7yukrsebHsgPARDf5NMQEQxIKDCWsklzgFaJRO09wMSYRwyG2N8cdBydB436mX37OaRDhuhaS4iAX7gOoV9gy5rt0ooRR1cdi0"
+              alt="Close up of a professional industrial air compressor with polished chrome pipes and blue steel casing in a clean factory setting"
+            />
+            <div class="absolute -bottom-6 -left-6 bg-tertiary-fixed p-6 rounded-lg kinetic-shadow">
+              <p class="text-on-tertiary-fixed font-black text-3xl tracking-tighter">98.4%</p>
+              <p class="text-on-tertiary-fixed-variant text-xs font-bold uppercase tracking-widest">Thermal Efficiency</p>
+            </div>
+          </div>
+          <!-- Decorative Background Plate -->
+          <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-surface-container-highest rounded-full blur-[120px] opacity-50 -z-10"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features: Asymmetric Layout -->
+    <section class="py-32 bg-surface-container-low">
+      <div class="max-w-screen-2xl mx-auto px-6">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-px bg-outline-variant/20 rounded-xl overflow-hidden kinetic-shadow">
+          <div class="bg-surface p-12 flex flex-col gap-6">
+            <div class="w-12 h-12 flex items-center justify-center bg-surface-container-highest text-primary rounded-lg">
+              <span class="material-symbols-outlined text-3xl">bolt</span>
+            </div>
+            <h3 class="text-2xl font-black text-primary tracking-tight">Energy Efficiency</h3>
+            <p class="text-on-surface-variant leading-relaxed">Smart-flow valve technology reduces power consumption by 24% compared to industry standard screw models.</p>
+            <div class="mt-auto pt-6 border-t border-surface-container">
+              <span class="text-xs font-bold text-primary uppercase tracking-widest">ISO 50001 Certified</span>
+            </div>
+          </div>
+          <div class="bg-surface p-12 flex flex-col gap-6">
+            <div class="w-12 h-12 flex items-center justify-center bg-surface-container-highest text-primary rounded-lg">
+              <span class="material-symbols-outlined text-3xl">volume_off</span>
+            </div>
+            <h3 class="text-2xl font-black text-primary tracking-tight">Quiet Operation</h3>
+            <p class="text-on-surface-variant leading-relaxed">Integrated acoustic dampening plates keep noise levels below 62dB, allowing for point-of-use installation.</p>
+            <div class="mt-auto pt-6 border-t border-surface-container">
+              <span class="text-xs font-bold text-primary uppercase tracking-widest">Silent-Shell Tech</span>
+            </div>
+          </div>
+          <div class="bg-surface p-12 flex flex-col gap-6">
+            <div class="w-12 h-12 flex items-center justify-center bg-surface-container-highest text-primary rounded-lg">
+              <span class="material-symbols-outlined text-3xl">support_agent</span>
+            </div>
+            <h3 class="text-2xl font-black text-primary tracking-tight">24/7 Support</h3>
+            <p class="text-on-surface-variant leading-relaxed">Global network of certified engineers and real-time remote diagnostics ensure your line never stops moving.</p>
+            <div class="mt-auto pt-6 border-t border-surface-container">
+              <span class="text-xs font-bold text-primary uppercase tracking-widest">Global Service Link</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product Grid: Kinetic Plates -->
+    <section class="py-32 bg-surface">
+      <div class="max-w-screen-2xl mx-auto px-6">
+        <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
+          <div>
+            <span class="text-xs font-black text-primary uppercase tracking-widest mb-4 block">Product Catalog</span>
+            <h2 class="text-4xl md:text-5xl font-black text-primary tracking-tighter">THE CORE LINEUP.</h2>
+          </div>
+          <div class="flex gap-4">
+            <button class="w-12 h-12 rounded-full border border-outline-variant flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-all">
+              <span class="material-symbols-outlined">chevron_left</span>
+            </button>
+            <button class="w-12 h-12 rounded-full border border-outline-variant flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-all">
+              <span class="material-symbols-outlined">chevron_right</span>
+            </button>
+          </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Product Card 1 -->
+          <div class="group bg-surface-container-lowest p-6 rounded-xl kinetic-shadow flex flex-col">
+            <div class="aspect-square bg-surface-container mb-6 overflow-hidden rounded-lg">
+              <img
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuB80ZCUD4belfj5tXRbGhC-hlBW4feknFMV3qQPu3H1BhYH_ufhhM_6RGKMsmNbFX5WPiExW0oY0oTQuAPmFst1-VVDb0gMu1AF7mEwREnm5ivygX_n8rVCJsQGCthpK-448pUCBYq_67NPa-IXJkZ-Y1vPC2ZnzI7VftAYNAXnjjDwozyjuD3oHzzcW9Ebj-GK_5f8-Ra2M-9vzyr_rvtCmM6QUOJgcc26YNBHhPQ2VjCPFt54t4QSYupKfIhZFEnuytBlQDn3l1kt"
+                alt="Large industrial rotary screw compressor with heavy blue steel frame and digital control panel in warehouse"
+              />
+            </div>
+            <div class="flex justify-between items-start mb-4">
+              <h4 class="text-xl font-black text-primary uppercase tracking-tight">Screw Compressors</h4>
+              <span class="px-2 py-1 bg-surface-container-highest text-[10px] font-bold text-primary rounded">STATIONARY</span>
+            </div>
+            <p class="text-sm text-on-surface-variant mb-6 leading-relaxed">High-volume continuous duty cycles for heavy manufacturing and automotive assembly lines.</p>
+            <div class="mt-auto flex items-center justify-between">
+              <span class="text-lg font-black text-primary">A-Series 500</span>
+              <button class="text-primary hover:translate-x-1 transition-transform">
+                <span class="material-symbols-outlined">arrow_right_alt</span>
+              </button>
+            </div>
+          </div>
+          <!-- Product Card 2 -->
+          <div class="group bg-surface-container-lowest p-6 rounded-xl kinetic-shadow flex flex-col">
+            <div class="aspect-square bg-surface-container mb-6 overflow-hidden rounded-lg">
+              <img
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJokHHCwgm5V84SuBi90NEzUEMPLQTODtx7YdFsaI6Ntw_1hNwKuZBnOoZp1LpjlAJPHuDWQkaV2RtK_e4qA781aj3dhCQBjJVQBUeNP3L396DgkTQ_-RQEPfUKDHK0uSlWP8R3CZnqHy6KgTbCn3T-Qfs_uH3YxZvRd_3-epzorEyEW88tVFFNHMcbD4ky0Bgy7uZ2UAiwJmKo1FO_AXRNWN3MEo83HZZHvjqKyvQSv_5yhZpN5VZEgOH2H0QC-gv2K7PXdUcWw_Z"
+                alt="Vertical industrial piston compressor with orange warning labels and high pressure gauges in mechanical room"
+              />
+            </div>
+            <div class="flex justify-between items-start mb-4">
+              <h4 class="text-xl font-black text-primary uppercase tracking-tight">Reciprocating</h4>
+              <span class="px-2 py-1 bg-surface-container-highest text-[10px] font-bold text-primary rounded">HIGH PRESSURE</span>
+            </div>
+            <p class="text-sm text-on-surface-variant mb-6 leading-relaxed">Precision piston technology for high-pressure intermittent applications and workshop environments.</p>
+            <div class="mt-auto flex items-center justify-between">
+              <span class="text-lg font-black text-primary">V-Force Piston</span>
+              <button class="text-primary hover:translate-x-1 transition-transform">
+                <span class="material-symbols-outlined">arrow_right_alt</span>
+              </button>
+            </div>
+          </div>
+          <!-- Product Card 3 -->
+          <div class="group bg-surface-container-lowest p-6 rounded-xl kinetic-shadow flex flex-col">
+            <div class="aspect-square bg-surface-container mb-6 overflow-hidden rounded-lg">
+              <img
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCRFQGdL5IftsSWneJqcVYBDOWIUEr9dgej4ZERj30KRJpIp6nY-p2X9NaRIyp7WtRIS9quEfdos9G5xKs9AuqdO9F7SsWAlJa7ZA9dlTjQJCKX2kx5DQOX_Kn6cuP3xyKZcIVxfHQrSLdAd41kNQT-KSFF8PqlfXgOWppDdzLiAFX3A-DI54UFAQh8aURREOmkJoq9K1dEE4pghD5mfF2pW3y3eVNkegPmqHr4sRMPydzyjOPxKXEFyCodoiotPu1lH2tObLKZXzwa"
+                alt="Heavy duty portable air compressor with rugged wheels and protective roll cage on a construction site"
+              />
+            </div>
+            <div class="flex justify-between items-start mb-4">
+              <h4 class="text-xl font-black text-primary uppercase tracking-tight">Portable</h4>
+              <span class="px-2 py-1 bg-tertiary-fixed text-[10px] font-bold text-on-tertiary-fixed rounded">FIELD READY</span>
+            </div>
+            <p class="text-sm text-on-surface-variant mb-6 leading-relaxed">Diesel-powered ruggedized units designed for construction sites and remote oil-field operations.</p>
+            <div class="mt-auto flex items-center justify-between">
+              <span class="text-lg font-black text-primary">Nomad X-10</span>
+              <button class="text-primary hover:translate-x-1 transition-transform">
+                <span class="material-symbols-outlined">arrow_right_alt</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section: Steel Sheen -->
+    <section class="py-24 bg-surface">
+      <div class="max-w-screen-2xl mx-auto px-6">
+        <div class="steel-gradient rounded-xl p-12 md:p-24 relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-12">
+          <div class="z-10 text-center md:text-left">
+            <h2 class="text-4xl md:text-6xl font-black text-on-primary tracking-tighter mb-6">READY FOR UPGRADE?</h2>
+            <p class="text-on-primary-container text-lg max-w-xl">Consult with our engineering team to audit your current air usage and identify potential savings of up to 30%.</p>
+          </div>
+          <div class="z-10 shrink-0">
+            <button class="bg-surface text-primary px-10 py-5 rounded-lg font-black text-lg uppercase tracking-widest hover:bg-surface-container-high transition-all active:scale-95 shadow-2xl">
+              Request Audit
+            </button>
+          </div>
+          <!-- Decorative Radial Glow -->
+          <div class="absolute top-0 right-0 w-96 h-96 bg-white/10 blur-[100px] -mr-48 -mt-48 rounded-full"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>

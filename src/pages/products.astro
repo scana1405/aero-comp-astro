@@ -1,0 +1,190 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout title="Technical Specifications | AeroPress Industrial">
+  <Navbar activeNav="products" />
+
+  <main class="pt-24 pb-20">
+    <!-- Hero Section with Kinetic Layering -->
+    <section class="max-w-screen-2xl mx-auto px-6 mb-24">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-0 relative">
+        <div class="lg:col-span-7 pt-12 z-10">
+          <div class="inline-block bg-tertiary-fixed text-on-tertiary-fixed px-3 py-1 rounded-sm text-[10px] font-black uppercase tracking-widest mb-6">Spec Series: AP-9000</div>
+          <h1 class="text-6xl md:text-8xl font-black tracking-tighter text-primary leading-none mb-8">PRECISION<br />ENGINEERED.</h1>
+          <p class="max-w-md text-on-surface-variant text-lg font-medium leading-relaxed mb-10">
+            The AeroPress Industrial AP-9000 Series represents the pinnacle of pneumatic power. Machined for 24/7 continuous operation in high-stakes environments.
+          </p>
+          <div class="flex gap-4">
+            <button class="steel-gradient text-on-primary px-8 py-4 rounded-lg font-bold flex items-center gap-3">
+              <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">download</span>
+              TECHNICAL PDF BROCHURE
+            </button>
+          </div>
+        </div>
+        <div class="lg:col-span-5 relative mt-12 lg:mt-0">
+          <div class="absolute -inset-4 bg-surface-container-highest -z-10 rounded-xl transform rotate-1"></div>
+          <img
+            class="w-full h-[500px] object-cover rounded-xl shadow-2xl grayscale hover:grayscale-0 transition-all duration-700"
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuB9pmRlhexVMHicsh1S6nHX0NXekM8NTUNkmwlE0i3VCrfDf8p5TgO2KUGi0SfCt-kQJ-BxaM58qVJdygR_xNgP97yDSkeZzKGVvQYK7Y1X1kcO0Xo1nnNpiN-woYhLDwfXt06SXh1WTvWBg9KEbMHfSGMRlW6BsNMHKzBoS-UMvfzPglSl_Zf3AEdzxoLXBzEqE4y-uKAacj1Pe909DJj_2CU8CwktFwsjUGVteD6-OAkLJaj3OMqrBIY-XdwbrOIgHdE4XGTEr7K1"
+            alt="Heavy industrial air compressor unit with blue steel casing, polished metal pipes, and digital pressure gauges in a clean manufacturing facility"
+          />
+          <div class="absolute bottom-6 -left-12 glass-panel p-6 shadow-xl rounded-lg hidden md:block">
+            <div class="text-[10px] font-black uppercase tracking-widest text-primary mb-2">Build Quality</div>
+            <div class="text-3xl font-black text-on-surface">99.8%</div>
+            <div class="text-xs font-bold text-on-surface-variant">Uptime Reliability</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Specs Bento Grid -->
+    <section class="bg-surface-container-low py-24">
+      <div class="max-w-screen-2xl mx-auto px-6">
+        <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
+          <div>
+            <h2 class="text-4xl font-black tracking-tighter text-primary uppercase">Technical Specifications</h2>
+            <div class="h-1 w-24 bg-tertiary mt-4"></div>
+          </div>
+          <p class="max-w-sm text-sm font-medium text-on-surface-variant">Comprehensive performance metrics for the AP-Industrial series across varying load capacities and operational pressures.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+          <!-- Spec Card: CFM -->
+          <div class="bg-surface-container-lowest p-8 rounded-lg shadow-sm group hover:bg-primary transition-all duration-300">
+            <span class="material-symbols-outlined text-primary group-hover:text-on-primary mb-6 block text-4xl">air</span>
+            <div class="text-xs font-black text-on-surface-variant group-hover:text-on-primary/60 uppercase tracking-widest mb-2">Flow Rate (CFM)</div>
+            <div class="text-4xl font-black text-primary group-hover:text-on-primary">1,250</div>
+            <div class="mt-4 text-xs font-medium text-on-surface-variant group-hover:text-on-primary/80">At 100 PSIG nominal pressure</div>
+          </div>
+          <!-- Spec Card: Pressure -->
+          <div class="bg-surface-container-lowest p-8 rounded-lg shadow-sm group hover:bg-primary transition-all duration-300">
+            <span class="material-symbols-outlined text-primary group-hover:text-on-primary mb-6 block text-4xl">speed</span>
+            <div class="text-xs font-black text-on-surface-variant group-hover:text-on-primary/60 uppercase tracking-widest mb-2">Max Pressure</div>
+            <div class="text-4xl font-black text-primary group-hover:text-on-primary">175 PSI</div>
+            <div class="mt-4 text-xs font-medium text-on-surface-variant group-hover:text-on-primary/80">Adjustable digital regulation</div>
+          </div>
+          <!-- Spec Card: HP -->
+          <div class="bg-surface-container-lowest p-8 rounded-lg shadow-sm group hover:bg-primary transition-all duration-300">
+            <span class="material-symbols-outlined text-primary group-hover:text-on-primary mb-6 block text-4xl">settings_power</span>
+            <div class="text-xs font-black text-on-surface-variant group-hover:text-on-primary/60 uppercase tracking-widest mb-2">Horsepower</div>
+            <div class="text-4xl font-black text-primary group-hover:text-on-primary">350 HP</div>
+            <div class="mt-4 text-xs font-medium text-on-surface-variant group-hover:text-on-primary/80">Dual-drive motor assembly</div>
+          </div>
+          <!-- Spec Card: Voltage -->
+          <div class="bg-surface-container-lowest p-8 rounded-lg shadow-sm group hover:bg-primary transition-all duration-300">
+            <span class="material-symbols-outlined text-primary group-hover:text-on-primary mb-6 block text-4xl">bolt</span>
+            <div class="text-xs font-black text-on-surface-variant group-hover:text-on-primary/60 uppercase tracking-widest mb-2">Voltage</div>
+            <div class="text-4xl font-black text-primary group-hover:text-on-primary">480V/3PH</div>
+            <div class="mt-4 text-xs font-medium text-on-surface-variant group-hover:text-on-primary/80">Global industrial standard</div>
+          </div>
+        </div>
+        <!-- Detailed Table Plate -->
+        <div class="mt-12 bg-surface-container-lowest rounded-xl shadow-lg overflow-hidden">
+          <table class="w-full text-left border-collapse">
+            <thead class="bg-primary text-on-primary">
+              <tr>
+                <th class="px-8 py-6 text-xs font-black uppercase tracking-widest">Model Number</th>
+                <th class="px-8 py-6 text-xs font-black uppercase tracking-widest">Cap. (CFM)</th>
+                <th class="px-8 py-6 text-xs font-black uppercase tracking-widest">Pressure (PSI)</th>
+                <th class="px-8 py-6 text-xs font-black uppercase tracking-widest">Power (kW)</th>
+                <th class="px-8 py-6 text-xs font-black uppercase tracking-widest text-right">Status</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-surface-container">
+              <tr class="hover:bg-surface-container-low transition-colors">
+                <td class="px-8 py-6 font-bold text-primary">AP-9000-S1</td>
+                <td class="px-8 py-6 text-on-surface-variant font-medium">850</td>
+                <td class="px-8 py-6 text-on-surface-variant font-medium">125</td>
+                <td class="px-8 py-6 text-on-surface-variant font-medium">160</td>
+                <td class="px-8 py-6 text-right"><span class="bg-surface-container text-primary text-[10px] font-black px-2 py-1 rounded-full uppercase tracking-tighter">In Stock</span></td>
+              </tr>
+              <tr class="hover:bg-surface-container-low transition-colors">
+                <td class="px-8 py-6 font-bold text-primary">AP-9500-HD</td>
+                <td class="px-8 py-6 text-on-surface-variant font-medium">1,250</td>
+                <td class="px-8 py-6 text-on-surface-variant font-medium">175</td>
+                <td class="px-8 py-6 text-on-surface-variant font-medium">250</td>
+                <td class="px-8 py-6 text-right"><span class="bg-tertiary-fixed text-on-tertiary-fixed text-[10px] font-black px-2 py-1 rounded-full uppercase tracking-tighter">Built to Order</span></td>
+              </tr>
+              <tr class="hover:bg-surface-container-low transition-colors">
+                <td class="px-8 py-6 font-bold text-primary">AP-9900-ULTRA</td>
+                <td class="px-8 py-6 text-on-surface-variant font-medium">1,800</td>
+                <td class="px-8 py-6 text-on-surface-variant font-medium">200</td>
+                <td class="px-8 py-6 text-on-surface-variant font-medium">400</td>
+                <td class="px-8 py-6 text-right"><span class="bg-surface-container text-primary text-[10px] font-black px-2 py-1 rounded-full uppercase tracking-tighter">In Stock</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quote Form & Brochure Section -->
+    <section class="max-w-screen-2xl mx-auto px-6 py-24">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-20">
+        <!-- Request Quote Form -->
+        <div>
+          <h3 class="text-4xl font-black tracking-tighter text-primary uppercase mb-4">Request a Quote</h3>
+          <p class="text-on-surface-variant mb-12 font-medium">Our engineering team will provide a customized specification and pricing package within 24 business hours.</p>
+          <form class="space-y-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div class="relative">
+                <label class="block text-[10px] font-black uppercase tracking-widest text-primary mb-2">Company Name</label>
+                <input class="w-full bg-surface-container-high border-0 border-b-2 border-primary px-0 py-3 focus:ring-0 focus:border-tertiary placeholder:text-on-surface-variant/40" placeholder="Global Logistics Corp" type="text" />
+              </div>
+              <div class="relative">
+                <label class="block text-[10px] font-black uppercase tracking-widest text-primary mb-2">Primary Contact</label>
+                <input class="w-full bg-surface-container-high border-0 border-b-2 border-primary px-0 py-3 focus:ring-0 focus:border-tertiary placeholder:text-on-surface-variant/40" placeholder="John Miller" type="text" />
+              </div>
+            </div>
+            <div class="relative">
+              <label class="block text-[10px] font-black uppercase tracking-widest text-primary mb-2">Facility Location</label>
+              <input class="w-full bg-surface-container-high border-0 border-b-2 border-primary px-0 py-3 focus:ring-0 focus:border-tertiary placeholder:text-on-surface-variant/40" placeholder="Chicago, IL" type="text" />
+            </div>
+            <div class="relative">
+              <label class="block text-[10px] font-black uppercase tracking-widest text-primary mb-2">Requirement Details</label>
+              <textarea class="w-full bg-surface-container-high border-0 border-b-2 border-primary px-0 py-3 focus:ring-0 focus:border-tertiary placeholder:text-on-surface-variant/40" placeholder="Describe your operational environment and air demand needs..." rows="4"></textarea>
+            </div>
+            <button class="w-full steel-gradient text-on-primary font-black py-5 uppercase tracking-widest hover:opacity-90 transition-opacity" type="submit">
+              Initialize Quote Request
+            </button>
+          </form>
+        </div>
+        <!-- Brochure Download Plate -->
+        <div class="relative flex flex-col justify-center">
+          <div class="bg-inverse-surface text-inverse-on-surface p-12 rounded-xl relative overflow-hidden">
+            <div class="absolute top-0 right-0 p-4">
+              <span class="material-symbols-outlined text-6xl opacity-10 rotate-12">picture_as_pdf</span>
+            </div>
+            <h4 class="text-3xl font-black tracking-tight mb-6">Complete Documentation Library</h4>
+            <p class="text-on-primary-container/80 mb-10 font-medium leading-relaxed">
+              Access our full catalog of installation guides, performance curves, and electrical schematics for the AP-Industrial compressor series.
+            </p>
+            <ul class="space-y-6 mb-10">
+              <li class="flex items-center gap-4 group cursor-pointer">
+                <span class="material-symbols-outlined text-tertiary-fixed">file_download</span>
+                <span class="font-bold border-b border-transparent group-hover:border-tertiary-fixed transition-all">2024 Product Catalog (PDF - 12MB)</span>
+              </li>
+              <li class="flex items-center gap-4 group cursor-pointer">
+                <span class="material-symbols-outlined text-tertiary-fixed">file_download</span>
+                <span class="font-bold border-b border-transparent group-hover:border-tertiary-fixed transition-all">Site Planning Requirements (PDF - 4MB)</span>
+              </li>
+              <li class="flex items-center gap-4 group cursor-pointer">
+                <span class="material-symbols-outlined text-tertiary-fixed">file_download</span>
+                <span class="font-bold border-b border-transparent group-hover:border-tertiary-fixed transition-all">Service Interval Chart (PDF - 2MB)</span>
+              </li>
+            </ul>
+            <div class="bg-surface/10 p-6 rounded-lg backdrop-blur-sm">
+              <div class="text-[10px] font-black uppercase tracking-widest mb-2 opacity-60">Technical Support</div>
+              <div class="text-lg font-bold">1-800-AERO-PRO</div>
+              <div class="text-xs opacity-60">Global Service Network available 24/7</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>
